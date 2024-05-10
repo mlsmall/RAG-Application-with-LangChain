@@ -25,7 +25,7 @@ Before you begin, set up an OpenAI account and generate an OpenAI key. You will 
 
 ### Copy your documents (Optional)
 * Go to the `data` directory and add your document files in `.md` format.
-* Go to the `create_database.py` file and set the variable `DATA_PATH = "data"` or the directory name where you will store data.
+* Go to the `create_database.py` file and set the variable `DATA_PATH = "data"` or to the directory name where you will store data.
   
 ### Running the application
 Inside a terminal, run the following:
