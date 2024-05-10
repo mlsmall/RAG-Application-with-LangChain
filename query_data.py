@@ -44,7 +44,7 @@ def chatbot_response():
     model = ChatOpenAI()
     response_text = model.predict(prompt)
     
-    # Collection the sources used to answer the prompt
+    # Documents the source used to answer the prompt
     sources = [doc.metadata.get("source", None) for doc, score in results]
     formatted_response = f"{response_text}\n\nSources: {sources}"
     print(formatted_response) # print the entire response and the sources used to answer the prompt
