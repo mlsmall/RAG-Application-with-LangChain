@@ -20,7 +20,7 @@ The process for creating the app is as follows:
 * Go to a terminal and paste `git clone https://github.com/mlsmall/RAG-Application-with-LangChain.git`
 
 ### OpenAI API Key
-Before you begin, set up an OpenAI account and generate an OpenAI key. You will need to put your credentials in a `.env` file.
+Before you begin, set up an OpenAI account and generate a new key. You will need to put your credentials in a `.env` file.
 * Go to https://platform.openai.com/api-keys and create an OpenAI key.
 * Create a `.env` file in your project directory and add `OPENAI_API_KEY="your_generated_secret_key"`.
 * Create a `.gitignore` file in your project directory and add `.env`.
