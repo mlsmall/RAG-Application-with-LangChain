@@ -12,7 +12,7 @@ The process for creating the app is as follows:
 2. Create vector embeddings from the chunks and store them in a [Chroma database](https://www.trychroma.com/). Vector embeddings are numerical representations of terms, which can be words, sentences, or documents. These embeddings capture the relationships and similarities between the terms. In language models, this allows the model to understand the meaning and context of words based on their similarity to other words.
 3. Use the query input by the user to perform a similarity search and retrieve a set of relevant chunks from the database.
 4. The LLM (OpenAI model) uses the relevant chunks as context and sends a response along with its sources.
-#### Example output:
+### Example output:
 <img src="https://github.com/mlsmall/RAG-Application-with-LangChain/blob/main/output.png" width="1000" />
 
 ## Instructions
