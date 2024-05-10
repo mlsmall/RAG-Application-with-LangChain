@@ -39,5 +39,3 @@ Inside a terminal, run the following:
 
 * Query the Chroma Database
 `python query_data.py "What operating systems does EC2 support"`
-
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=mlsmall&repo=RAG-Application-with-LangChain)](https://github.com/mlsmall/RAG-Application-with-LangChain)
