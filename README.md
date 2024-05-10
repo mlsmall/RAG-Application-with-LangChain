@@ -1,1 +1,1 @@
-# Retrieval-Augmented Generation Application with LangChain and OpenAI
+# Retrieval-Augmented Generation App with LangChain and OpenAI
