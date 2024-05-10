@@ -25,9 +25,9 @@ Before you begin, set up an OpenAI account and generate an OpenAI key. You will 
 * Create a `.env` file in your project directory and add `OPENAI_API_KEY="your_generated_secret_key"`.
 * Create a `.gitignore` file in your project directory and add `.env`.
 
-### Copy your documents
+### Copy your documents (Optional)
 * Go to the `data` directory and add your document files in `.md` format.
-* Go to the `create_database.py` file and set the variable `DATA_PATH = "data"` or the directory name where you will store data.
+* Go to the `create_database.py` file and set the variable `DATA_PATH = "data"` or to the directory name where you will store data.
   
 ### Running the application
 Inside a terminal, run the following:
